@@ -1,6 +1,6 @@
-# dashing #
+# Dashing #
 
-### About ###
+## About ##
 Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesigners.nl/s/Summer_Academy_2017).
 
 Amazon dash buttons are a dream for the modern consumer. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a button for, but want to be able to buy everything your favourite Instagram celebrities promote?
@@ -9,10 +9,32 @@ Dashing takes an image from Instagram and, using computer vision, figures out wh
 
 * your milage may vary
 
+## Examples ##
+Click images to visit their original page.
 
-### Installing ###
+### Rihanna ###
 
-#### pip and virtualenv ####
+[![Rihanna example source](https://raw.githubusercontent.com/javl/dashing/master/img/results/rihanna_source_descr.png?raw=true)](https://www.instagram.com/p/BXBVgyplxTB/?taken-by=badgalriri)
+
+#### Cressi SUPERNOVA DRY, Adult Diving Dry Snorkel - Cressi: Quality Since 1946  ####
+
+[![Rihanna example result](https://raw.githubusercontent.com/javl/dashing/master/img/results/rihanna_result.png?raw=true)](https://www.amazon.com/Cressi-Supernova-Dry-black-red/dp/B00AQRBO16/ref=sr_1_1?ie=UTF8&qid=1501922519&sr=8-1&keywords=B00AQRBO16)
+
+### Kylie Jenner ###
+[![Kyliejenner example source](https://github.com/javl/dashing/blob/master/img/results/kyliejenner_source_descr.png?raw=true)](https://www.instagram.com/p/BW8Llwjl6ml/?taken-by=kyliejenner)
+
+### Nestlé® Pure Life® Bottled Purified Water, 16.9 oz. Bottles, 24/Case  ###
+[![Kyliejenner example result](https://raw.githubusercontent.com/javl/dashing/master/img/results/kyliejenner_result.png?raw=true)](https://www.amazon.com/Nestl%C3%A9-Life-Bottled-Purified-Bottles/dp/B00LLKWVL4/ref=sr_1_1?ie=UTF8&qid=1501922824&sr=8-1&keywords=B00LLKWVL4)
+
+### Rita Ora ###
+[![Rita Ora example source](https://raw.githubusercontent.com/javl/dashing/master/img/results/ritaora_source_descr.png?raw=true)](https://www.instagram.com/p/BXNxVqMnb1l/?taken-by=ritaora)
+
+###  Fiesta Fun Party Maracas (2/Pkg) ###
+[![Rita Ora example result](https://raw.githubusercontent.com/javl/dashing/master/img/results/ritaora_result.png?raw=true)](https://www.amazon.com/Fiesta-Fun-Party-Maracas-Pkg/dp/B000R4OHCG/ref=sr_1_1?ie=UTF8&qid=1501923376&sr=8-1&keywords=B000R4OHCG)
+
+## Installing ##
+
+### pip and virtualenv ###
 Commands in this readme use pip to install the necessary python modules.  
 Running the script in a virtual environment is optional, but it might be useful in keeping your machine organised:
 
@@ -23,7 +45,7 @@ Running the script in a virtual environment is optional, but it might be useful 
     virtuelenv env
     source env/bin/activate
 
-#### MXNet ####
+### MXNet ###
 Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html), but the summarised steps below should work. First, install the opencv and mxnet python modules
 
     pip install opencv-python mxnet
@@ -45,7 +67,7 @@ For future reference: I also got a warning saying `label_shapes don't match name
 
     
 
-#### Amazon API ####
+### Amazon API ###
 I found the official Amazon API for Python hard to use, so instead I used `python-amazon-simple-product-api`
 
     pip install python-amazon-simple-product-api
@@ -54,7 +76,7 @@ Rename `amazon_credentials.example.py` to `amazon_credentials.example.py` and fi
 Follow the instructions on the [Amazon Developer website](https://developer.amazon.com/) to get these.
 
 
-#### Running ####
+### Running ###
 Change any variables in the code to fit your system: change `img_folder` to the right location and fill it with the images you want to use. I used [instagram-scraper](https://github.com/rarcega/instagram-scraper) to get a bunch of images from an Instagram account.
 
 Now, making sure the Processing sketch is running on the receiving machine, run the sender script using:
