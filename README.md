@@ -3,7 +3,12 @@
 ### About ###
 Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesigners.nl/s/Summer_Academy_2017).
 
-Amazon dash buttons are a dream for the modern consumer. Never run out of any product, buy more without any hassle.
+Amazon dash buttons are a dream for the modern consumer. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a button for, but want to be able to buy everything your favourite Instagram celebrities promote?
+
+Dashing takes an image from Instagram and, using computer vision, figures out what is shown in the picture*. This results in a keyword which it then uses to find a matching product on Amazon, so you can have what they're having, all with the push of a button!
+
+* your milage may vary
+
 
 ### Installing ###
 
