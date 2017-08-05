@@ -8,7 +8,6 @@ Amazon dash buttons are a dream for the modern consumer. Never run out of any pr
 This script combines the commercial
 
 ### Installing ###
-Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html), but in short:
 
 #### Virtualenv ####
 Running the script in a virtual environment is optional, but it might be useful in keeping your machine organized:
@@ -21,7 +20,7 @@ Running the script in a virtual environment is optional, but it might be useful 
     source env/bin/activate
 
 #### MXNet ####
-After installing MXNet you can download one of their models for testing
+Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html). After installing MXNet using pip you'll need to download a model to use.
 
     # Use pip to install MXNet
     pip install mxnet
