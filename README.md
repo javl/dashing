@@ -7,10 +7,10 @@ Amazon Dash buttons are a dream for the modern consumer. Never run out of any pr
 
 An unbranded, home-made Dash button triggers a script that takes an image from Instagram and, using computer vision, figures out what is shown in the picture*. This results in a keyword which it then uses to find a matching product on Amazon, so you can have what they're having, all with the push of a button!
 
-* your milage may vary
+\* your milage may vary
 
 ## Examples ##
-Click images to visit their original page.
+Click the images to visit the original Instagram or Amazon pages.
 
 ### Rihanna ###
 
