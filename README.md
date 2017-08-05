@@ -5,12 +5,11 @@ Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesi
 
 Amazon dash buttons are a dream for the modern consumer. Never run out of any product, buy more without any hassle.
 
-This script combines the commercial
-
 ### Installing ###
 
-#### Virtualenv ####
-Running the script in a virtual environment is optional, but it might be useful in keeping your machine organized:
+#### pip and virtualenv ####
+Commands in this readme use pip to install the necessary python modules.  
+Running the script in a virtual environment is optional, but it might be useful in keeping your machine organised:
 
     # Install virtualenv (using a virtual environment is optional)
     sudo apt-get install virtualenv
@@ -20,10 +19,11 @@ Running the script in a virtual environment is optional, but it might be useful 
     source env/bin/activate
 
 #### MXNet ####
-Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html). After installing MXNet using pip you'll need to download a model to use.
+Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html), but the summarised steps below should work. First, install the opencv and mxnet python modules
 
-    # Use pip to install MXNet
-    pip install mxnet
+    pip install opencv-python mxnet
+
+After installing MXNet you'll need to download a model to use.
 
     # Download the model
     curl --header 'Host: data.mxnet.io' --header 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:45.0) Gecko/20100101 Firefox/45.0' --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' --header 'Accept-Language: en-US,en;q=0.5' --header 'Referer: http://data.mxnet.io/models/imagenet/' --header 'Connection: keep-alive' 'http://data.mxnet.io/models/imagenet/inception-bn.tar.gz' -o 'inception-bn.tar.gz' -L
