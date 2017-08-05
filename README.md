@@ -9,6 +9,8 @@ An unbranded, home-made Dash button triggers a script that takes an image from I
 
 \* your milage may vary
 
+___
+
 ## Examples ##
 Click the images to visit the original Instagram or Amazon pages.
 
@@ -20,17 +22,23 @@ Click the images to visit the original Instagram or Amazon pages.
 
 [![Rihanna example result](https://raw.githubusercontent.com/javl/dashing/master/img/results/rihanna_result.png?raw=true)](https://www.amazon.com/Cressi-Supernova-Dry-black-red/dp/B00AQRBO16/ref=sr_1_1?ie=UTF8&qid=1501922519&sr=8-1&keywords=B00AQRBO16)
 
+___
+
 ### Kylie Jenner ###
 [![Kyliejenner example source](https://github.com/javl/dashing/blob/master/img/results/kyliejenner_source_descr.png?raw=true)](https://www.instagram.com/p/BW8Llwjl6ml/?taken-by=kyliejenner)
 
 ### Nestlé® Pure Life® Bottled Purified Water, 16.9 oz. Bottles, 24/Case  ###
 [![Kyliejenner example result](https://raw.githubusercontent.com/javl/dashing/master/img/results/kyliejenner_result.png?raw=true)](https://www.amazon.com/Nestl%C3%A9-Life-Bottled-Purified-Bottles/dp/B00LLKWVL4/ref=sr_1_1?ie=UTF8&qid=1501922824&sr=8-1&keywords=B00LLKWVL4)
 
+___
+
 ### Rita Ora ###
 [![Rita Ora example source](https://raw.githubusercontent.com/javl/dashing/master/img/results/ritaora_source_descr.png?raw=true)](https://www.instagram.com/p/BXNxVqMnb1l/?taken-by=ritaora)
 
 ###  Fiesta Fun Party Maracas (2/Pkg) ###
 [![Rita Ora example result](https://raw.githubusercontent.com/javl/dashing/master/img/results/ritaora_result.png?raw=true)](https://www.amazon.com/Fiesta-Fun-Party-Maracas-Pkg/dp/B000R4OHCG/ref=sr_1_1?ie=UTF8&qid=1501923376&sr=8-1&keywords=B000R4OHCG)
+
+___
 
 ## Installing ##
 
