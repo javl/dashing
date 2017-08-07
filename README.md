@@ -40,6 +40,14 @@ ___
 
 ___
 
+## Dashing Button ##
+The Dashing button was made in [OpenScad](http://www.openscad.org/) which is a free and open CAD tool. You can find both the source file and the .stl printable files in [the repo](https://github.com/javl/dashing/tree/master/dash_3d_model). Inside the button there is space for a regular breadboard size button with 9mm tall actuator.
+
+[![Dashing button](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)
+[![Dashing button inside](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)
+[![Dashing button render](https://github.com/javl/dashing/blob/master/img/dashing_button_render.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_render.jpeg?raw=true)
+
+
 ## Installing ##
 
 ### pip and virtualenv ###
