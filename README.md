@@ -1,9 +1,18 @@
 # Dashing #
 
+1. [About](#about)
+2. [Examples](#examples)
+    1. [Rihanna](#rihanna)
+    2. [Kylie Jenner](#kylie-jenner)
+    3. [Rita Ora](#rita-ora)
+3. [Dashing button](#dashing-button)
+4. [Installing](#installing)
+5. [Running](#running)
+
 ## About ##
 Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesigners.nl/s/Summer_Academy_2017).
 
-Amazon Dash buttons are a dream for the modern consumer. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a Dash button for, but want to be able to buy everything your favourite Instagram celebrities promote?
+Amazon Dash buttons are the modern consumer's best friends. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a Dash button for, but want to be able to buy everything your favourite Instagram celebrities promote?
 
 An unbranded, home-made Dash button triggers a script that takes an image from Instagram and, using computer vision, figures out what is shown in the picture*. This results in a keyword which it then uses to find a matching product on Amazon, so you can have what they're having, all with the push of a button!
 
@@ -41,11 +50,13 @@ ___
 ___
 
 ## Dashing Button ##
-The Dashing button was made in [OpenScad](http://www.openscad.org/) which is a free and open CAD tool. You can find both the source file and the .stl printable files in [the repo](https://github.com/javl/dashing/tree/master/dash_3d_model). Inside the button there is space for a regular breadboard size button with 9mm tall actuator.
+The Dashing button was made in [OpenScad](http://www.openscad.org/) which is a free and open CAD tool. You can find both the source file and the .stl printable files in [the repo](https://github.com/javl/dashing/tree/master/dash_3d_model). The bottom part of the button has space for a regular breadboard-size button with 9mm tall actuator. The other two parts snap together to create a movable button. The button in the picture was printed at 0.4mm because of time constraints. 
+
+There are many ways to connect a button to your PC; I used an [I-PAC](https://www.ultimarc.com/ipac1.html) to emulate the return key of a keyboard. 
 
 [![Dashing button](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)
 [![Dashing button inside](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)
-[![Dashing button render](https://github.com/javl/dashing/blob/master/img/dashing_button_render.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_render.jpeg?raw=true)
+[![Dashing button render](https://github.com/javl/dashing/blob/master/img/dashing_button_render.png?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_render.png?raw=true)
 
 
 ## Installing ##
@@ -62,7 +73,7 @@ Running the script in a virtual environment is optional, but it might be useful 
     source env/bin/activate
 
 ### MXNet ###
-Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html), but the summarised steps below should work. First, install the opencv and mxnet python modules
+Full instructions on installing MXNet can be found [here](http://mxnet.io/tutorials/embedded/wine_detector.html), but the summarized steps below should work. First, install the opencv and mxnet python modules
 
     pip install opencv-python mxnet
 
@@ -93,7 +104,9 @@ Follow the instructions on the [Amazon Developer website](https://developer.amaz
 
 
 ### Running ###
-Change any variables in the code to fit your system: change `img_folder` to the right location and fill it with the images you want to use. I used [instagram-scraper](https://github.com/rarcega/instagram-scraper) to get a bunch of images from an Instagram account.
+This is a quick and dirty project so there is a lot that can be improved. For the workshop I created a Python script that takes an image from a folder, generates a keyword based on what is visible in the image and uses this word to find a product on Amazon. All this data was sent over UDP to a Raspberry Pi running a Processing script to display the results.
+
+Change any variables in the code to fit your system, change `img_folder` to the right location for instance, and fill it with the images you want to use. I used [instagram-scraper](https://github.com/rarcega/instagram-scraper) to quickly get a bunch of images from Instagram accounts.
 
 Now, making sure the Processing sketch is running on the receiving machine, run the sender script using:
 
