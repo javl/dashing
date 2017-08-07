@@ -12,7 +12,7 @@
 ## About ##
 Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesigners.nl/s/Summer_Academy_2017).
 
-Amazon Dash buttons are a dream for the modern consumer. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a Dash button for, but want to be able to buy everything your favourite Instagram celebrities promote?
+Amazon Dash buttons are the modern consumer's best friends. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a Dash button for, but want to be able to buy everything your favourite Instagram celebrities promote?
 
 An unbranded, home-made Dash button triggers a script that takes an image from Instagram and, using computer vision, figures out what is shown in the picture*. This results in a keyword which it then uses to find a matching product on Amazon, so you can have what they're having, all with the push of a button!
 
