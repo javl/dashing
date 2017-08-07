@@ -50,7 +50,9 @@ ___
 ___
 
 ## Dashing Button ##
-The Dashing button was made in [OpenScad](http://www.openscad.org/) which is a free and open CAD tool. You can find both the source file and the .stl printable files in [the repo](https://github.com/javl/dashing/tree/master/dash_3d_model). The bottom part of the button has space for a regular breadboard-size button with 9mm tall actuator. The other two parts snap together to create a pressable button. 
+The Dashing button was made in [OpenScad](http://www.openscad.org/) which is a free and open CAD tool. You can find both the source file and the .stl printable files in [the repo](https://github.com/javl/dashing/tree/master/dash_3d_model). The bottom part of the button has space for a regular breadboard-size button with 9mm tall actuator. The other two parts snap together to create a pressable button.
+
+There are many ways to connect a button to your PC; I used an [I-PAC](https://www.ultimarc.com/ipac1.html) to emulate the return key of a keyboard. 
 
 [![Dashing button](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)
 [![Dashing button inside](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)
@@ -102,7 +104,10 @@ Follow the instructions on the [Amazon Developer website](https://developer.amaz
 
 
 ### Running ###
-Change any variables in the code to fit your system: change `img_folder` to the right location and fill it with the images you want to use. I used [instagram-scraper](https://github.com/rarcega/instagram-scraper) to get a bunch of images from an Instagram account.
+`dashing.py` runs on your computer and handles all the logic. It sends UDP messages to the receiving (display) device which can then display them for you. With the current setup, the source images need to be present on both devices.
+The display device runs the Processing script that will receive the UDP messages and then displays the right image and keyword.
+
+Change any variables in the code to fit your system, change `img_folder` to the right location for instance, and fill it with the images you want to use. I used [instagram-scraper](https://github.com/rarcega/instagram-scraper) to quickly get a bunch of images from Instagram accounts.
 
 Now, making sure the Processing sketch is running on the receiving machine, run the sender script using:
 
