@@ -45,7 +45,7 @@ The Dashing button was made in [OpenScad](http://www.openscad.org/) which is a f
 
 [![Dashing button](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button.jpeg?raw=true)
 [![Dashing button inside](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_inside.jpeg?raw=true)
-[![Dashing button render](https://github.com/javl/dashing/blob/master/img/dashing_button_render.jpeg?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_render.jpeg?raw=true)
+[![Dashing button render](https://github.com/javl/dashing/blob/master/img/dashing_button_render.png?raw=true)](https://github.com/javl/dashing/blob/master/img/dashing_button_render.png?raw=true)
 
 
 ## Installing ##
