@@ -109,9 +109,9 @@ module lid(){
 	}
 }
 
-//translate([0, -15, 0])
-//body();
-//translate([0, 0, 0])
-//button();
-//translate([0, 0, -20])
+translate([0, 0, 15])
+body();
+translate([0, 0, -10])
+button();
+translate([0, 0, -10])
 lid();
