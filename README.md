@@ -5,9 +5,9 @@
     1. [Rihanna](#rihanna)
     2. [Kylie Jenner](#kylie-jenner)
     3. [Rita Ora](#rita-ora)
-3. [Dashing button](dashing-button)
-4. [Installing](installing)
-5. [Running](running)
+3. [Dashing button](#dashing-button)
+4. [Installing](#installing)
+5. [Running](#running)
 
 ## About ##
 Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesigners.nl/s/Summer_Academy_2017).
