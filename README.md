@@ -10,7 +10,7 @@
 5. [Running](#running)
 
 ## About ##
-Made during the [Hackers & Designers Summer Academy 2017](https://hackersanddesigners.nl/s/Summer_Academy_2017).
+Made during [Hackers & Designers Summer Academy 2017, On & Off the grid](https://hackersanddesigners.nl/s/Summer_Academy_2017).
 
 Amazon Dash buttons are the modern consumer's best friends. Never run out of any product, buy more without any hassle. But what if you don't only want to buy the products you can get a Dash button for, but want to be able to buy everything your favourite Instagram celebrities promote?
 
